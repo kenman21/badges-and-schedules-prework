@@ -26,7 +26,7 @@ def printer(array)
   announcements.each do |announcement|
     puts announcement
   end 
-  batch_badge_creator(array)
+  messages = batch_badge_creator(array)
   messages.each do |message|
     puts message 
   end 
